@@ -10,6 +10,6 @@ module Httpunk
 			{ message: "Go go go!" }.to_json
 		end
 
-		run! if app_fule == $0
+		run! if app_file == $0
 	end
 end
